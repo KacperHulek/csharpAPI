@@ -1,0 +1,20 @@
+# Ignore .NET build output
+bin/
+obj/
+
+# Ignore IDE and editor settings
+.vscode/
+
+# Ignore configuration files with sensitive data
+api/appsettings.Development.json
+api/appsettings.json
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore logs
+*.log
+
+# Ignore Visual Studio Solution User Options
+*.sln.docstates
