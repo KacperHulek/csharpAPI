@@ -6,8 +6,8 @@ obj/
 .vscode/
 
 # Ignore configuration files with sensitive data
-api/appsettings.Development.json
-api/appsettings.json
+#api/appsettings.Development.json
+#api/appsettings.json
 
 # Ignore user-specific files
 *.user
