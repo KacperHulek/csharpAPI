@@ -6,8 +6,8 @@ obj/
 .vscode/
 
 # Ignore configuration files with sensitive data
-#api/appsettings.Development.json
-#api/appsettings.json
+api/appsettings.Development.json
+api/appsettings.json
 
 # Ignore user-specific files
 *.user
@@ -18,3 +18,12 @@ obj/
 
 # Ignore Visual Studio Solution User Options
 *.sln.docstates
+
+.fake
+
+.config
+
+node_modules
+
+package-lock.json
+package.json
