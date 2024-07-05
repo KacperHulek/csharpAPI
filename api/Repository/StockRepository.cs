@@ -51,7 +51,7 @@ namespace api.Repository
 
             if (!string.IsNullOrWhiteSpace(query.Symbol))
             {
-                stocks = stocks.Where(s => s.CompanyName.Contains(query.CompanyName));
+                stocks = stocks.Where(s => s.CompanyName.Contains(query.Symbol));
             }
 
             if (!string.IsNullOrWhiteSpace(query.SortBy))
